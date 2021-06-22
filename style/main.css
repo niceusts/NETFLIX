@@ -9,9 +9,13 @@
     box-sizing: border-box;
 }
 
+
+/*elementos base*/
+
 body {
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color:#fff;
 }
 
 header .container {
@@ -36,4 +40,12 @@ header nav a {
 
 header nav a:hover {
     color: #fff;
+}
+
+/*Filme Principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background: url('/NETFLIX/img/fundo-capa.jpg');
+    height: 400px;
 }
